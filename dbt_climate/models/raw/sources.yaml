@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: dbt_model
+    schema: raw_data
+    tables:
+      - name: history_day
+      - name: forecast_day
+      - name: climatology_day
